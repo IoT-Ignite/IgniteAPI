@@ -7,55 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06CFC38773A0AE4E780B42E173A2DF43 /* IgniteAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BF47540C2FC9D930B6BEA49EBF2AF4 /* IgniteAPI-dummy.m */; };
+		0095E86ED77C9756717EEA13B2F2103A /* IGDROMConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2958158DDC3B6E12BD59F9D1454EFA /* IGDROMConfiguration.swift */; };
+		078ED294AFA552ED54F3808B7534416B /* IGDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7ECE7CB1616D3CE89E6483F6D0D133 /* IGDevice.swift */; };
 		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D182500FF4918391F97385DAE996449 /* Timeline.swift */; };
+		161E75D0DE6561E73673EB3C714A0FD2 /* IGLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098D58ED9E94436E2D8632054B32A8FF /* IGLink.swift */; };
 		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94276CF887593FC21A638F4E2F1F4A42 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F549CFD7389578C6E8E6CD253AC86A3 /* IGUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075AD779DB46090BC39832D5995D3741 /* IGUser.swift */; };
 		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003F0620667B1D1CE3A63A07911DA946 /* TaskDelegate.swift */; };
+		376788F941B1F9AE4F7595DA9208C2FC /* IGUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7A8A6B87EBF75D1DD1ED1C5152F9E7 /* IGUser.swift */; };
 		37EF35C14AC6A4916FDCA1290F9A51CB /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5B8F6AE942BA3D7E8C0B8732349B67 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		42FC767D4FD6092608BAB19AF2E74E3B /* Pods-IgniteAPI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AA62E4DF8DA9EC59BCC0C4C30EB81D /* Pods-IgniteAPI_Tests-dummy.m */; };
-		48405C86EBA701A60D7904DDAD7014E6 /* IgniteAPI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C2BEB9333D64F8288DF9960AAEE49FF /* IgniteAPI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D248A73F08F8F16531529DA4BAD6EC5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE144DA11367997D6E81FAC52197EF35 /* Constants.swift */; };
+		48405C86EBA701A60D7904DDAD7014E6 /* IgniteAPI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4112B39ECC0463E213266A56E3C03040 /* IgniteAPI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E37296A21253E7BDFBE7AA46E68BA23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C208BD2418B38199D932444228512CF /* Foundation.framework */; };
+		513F06A0A416BF0D5D495A1F87544DB8 /* IGSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42016E2E299AA0A5FAAF1AACEF16F2B /* IGSensor.swift */; };
+		51CF7547C5197098EB8AC41684F408BB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC991CFB58DE9609ED0D379D0C1A77C /* Extensions.swift */; };
 		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBEB670658597FB7864005ED913ECB6 /* Request.swift */; };
-		58E289A5014D95BC698640F666D85BC5 /* IGSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B125292500696D52A4B84AD81FE3ADB /* IGSensor.swift */; };
-		5E632D19417F7C4E0070E5361C096361 /* IGDROMConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683E8A5214A59D714A6D9B710EAB70FE /* IGDROMConfiguration.swift */; };
-		5FA54537B1E7A402B13B0C8CA6605D20 /* IgniteAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831032F28C76BD46C1F8344E912815AC /* IgniteAPI.swift */; };
+		57D570A161FFE5002801E16D7101D82C /* IGDROM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFE538EAC6ABEB3290387ACBEA821DC /* IGDROM.swift */; };
 		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5933A0580629CB79BDBD1D33483297F5 /* DispatchQueue+Alamofire.swift */; };
 		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EE6D52AA2F0C3238B527C58255F520 /* ServerTrustPolicy.swift */; };
 		6B89E4D5CE60FB66FA2A1583D735AED3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C208BD2418B38199D932444228512CF /* Foundation.framework */; };
 		6E69554EA6AFBBBEDCDD88E053C2046E /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBFF681209D4E5030FF4116EFD41362 /* SwiftyJSON.swift */; };
 		73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C208BD2418B38199D932444228512CF /* Foundation.framework */; };
-		795388A2E462668A195DD9F4F2FF89F0 /* IGAuditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63D5DCB808715F3007DA51E0E235675 /* IGAuditor.swift */; };
+		759B369EBC5BDE3AADF643A282FD73BE /* IGSensorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2E36A22C8ED220B4AC32457AD97447 /* IGSensorData.swift */; };
 		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F6B9EA5D63A221428D82DFC754F83 /* SessionDelegate.swift */; };
 		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA5CA9C1A1A8A10FA0F34E068E281AB /* Result.swift */; };
-		828BCBFF4062A94E55C84CC0C95FD687 /* IGLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564007B1A89E401447C7623416E4C8F3 /* IGLink.swift */; };
+		8328A18DD0F0480E360B562ED7CF0971 /* IgniteAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA30820C1CA0BE94A0E8E2217B0077B /* IgniteAPI.swift */; };
 		893F636C9E0A614418495ABF5FF346D3 /* Pods-IgniteAPI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D88143B19862843FE0B7646A90F0208B /* Pods-IgniteAPI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A7696325DE3AA1B73224DFC4BB394ED /* IGStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87CE1BB56A38B153AB83B9792AE5F87 /* IGStatus.swift */; };
 		8E189F40817D02066AB5634EBB6A23B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C208BD2418B38199D932444228512CF /* Foundation.framework */; };
+		8E61B2A1AD2CE2DF4B874EC04B610221 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E6641A66FCC45782447577EACA5804 /* Constants.swift */; };
+		8F8A595B358BD50D0D2DE3F63E56CD44 /* IGAuditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D4FD16A45B3BA06683C34351E8EC47 /* IGAuditor.swift */; };
 		9EC8B5392D6BE3722AB828C29164B1A0 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C7C311169F3CAF970644274FB0787A /* SwiftyJSON-dummy.m */; };
 		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6FA20699EAC0AB72A507BB66B191F8 /* AFError.swift */; };
 		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7857033CB003F852F367D6BC6CA97425 /* NetworkReachabilityManager.swift */; };
+		A92627A0445FB8C8D59B8F3A8F88B196 /* IGEnduser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF968E52FD6D110BBABA50B60791FC3 /* IGEnduser.swift */; };
 		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1634FA3E2F5577B752A2A95EF63B4B81 /* Alamofire-dummy.m */; };
 		ACB7F65FFD2419C911ED80FDE962A294 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57542A837C5B77A7BB3FB13B37548A6 /* Alamofire.framework */; };
 		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B506A540FE042146EA8265DD35585 /* SessionManager.swift */; };
 		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42F49FBA20BC96954B56110A1FB0535 /* MultipartFormData.swift */; };
+		B6E96103AAC6737C7675F25376DCD669 /* IGStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A1E61C688C6322F0D592523227375B /* IGStatus.swift */; };
 		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F382C5721F36A8CF08DA36032E8FF2C1 /* Validation.swift */; };
-		BC1C719B885BF2E029D2C5BA91DA90F8 /* IGDROM.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0BEE15B986088B70D74535940455B2 /* IGDROM.swift */; };
 		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F03809326666A0674F21BBADB1BB09D /* ParameterEncoding.swift */; };
 		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6E04C2B770D33E90A7E43AD9A6DDF5 /* Response.swift */; };
-		D644DBC47172FC3D3814C40CBC0E5D4A /* IGDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1000835A64250160D4AF0F02B414E /* IGDevice.swift */; };
 		D6BE45C585F33A3600C9A6C7142DB630 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32059BC369D7FCF1B2F950DF30BE51C3 /* SwiftyJSON.framework */; };
-		DAF68E380F24D698B46A0621FA1127DD /* IGNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610EC87CD3E339A8E5E2364827227A53 /* IGNode.swift */; };
 		DB4D2BBD247D146CD7755A91BCBC97D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C208BD2418B38199D932444228512CF /* Foundation.framework */; };
-		E54F1C00FAE906DE02A35FE6E504DFAF /* IGEnduser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6045B96FCFBEDF5EB8382E76AA8596B /* IGEnduser.swift */; };
+		E712F90A4A9A0A768905EC1B7965D291 /* IGNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B00E4A51D31EB54106B6CC8F6B5A13 /* IGNode.swift */; };
 		EB3E11BC74B9C05D3B671D05CCA94B0F /* Pods-IgniteAPI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E17F22B2817282AEDD83AA3CA517C08 /* Pods-IgniteAPI_Example-dummy.m */; };
 		EC76781B5E3EAC6BFE686F158C89DC60 /* Pods-IgniteAPI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BEDE9AC96BB56A04DE61D281623BA8C /* Pods-IgniteAPI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF5C9F7D215E8865822D74BDC0A7B172 /* IGSensorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB31171BD475B4D9AD20D750FB327B0 /* IGSensorData.swift */; };
 		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09922B86810418CDE6DD69710D5A9C17 /* Notifications.swift */; };
-		F3C30214677CC26B503621D63CA861B3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77438A7CD8142EA7838CA0134AD03D1E /* Extensions.swift */; };
 		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EFF0A773A9B68F8036680922E55A8F /* ResponseSerialization.swift */; };
 		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FB4343C43368E1D119B6871123AF1 /* Alamofire.swift */; };
+		FD4FCCC04F6928885E67C65BCA237871 /* IgniteAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE39CFC225D9280B33ED66B844A01F4 /* IgniteAPI-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,42 +98,43 @@
 
 /* Begin PBXFileReference section */
 		003F0620667B1D1CE3A63A07911DA946 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
-		0388019C4FBB3982ED4BF94AE68547D8 /* IgniteAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IgniteAPI-prefix.pch"; sourceTree = "<group>"; };
 		047737F236E11ACAA2AA9968C82A5A78 /* Pods-IgniteAPI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IgniteAPI_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		075AD779DB46090BC39832D5995D3741 /* IGUser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IGUser.swift; path = IgniteAPI/Classes/IGUser.swift; sourceTree = "<group>"; };
+		098D58ED9E94436E2D8632054B32A8FF /* IGLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IGLink.swift; sourceTree = "<group>"; };
 		09922B86810418CDE6DD69710D5A9C17 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		0BC991CFB58DE9609ED0D379D0C1A77C /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		0C6E04C2B770D33E90A7E43AD9A6DDF5 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		0E17F22B2817282AEDD83AA3CA517C08 /* Pods-IgniteAPI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IgniteAPI_Example-dummy.m"; sourceTree = "<group>"; };
-		15BF47540C2FC9D930B6BEA49EBF2AF4 /* IgniteAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IgniteAPI-dummy.m"; sourceTree = "<group>"; };
+		0F7A8A6B87EBF75D1DD1ED1C5152F9E7 /* IGUser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IGUser.swift; sourceTree = "<group>"; };
 		1634FA3E2F5577B752A2A95EF63B4B81 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		17C7C311169F3CAF970644274FB0787A /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		25D4FD16A45B3BA06683C34351E8EC47 /* IGAuditor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IGAuditor.swift; sourceTree = "<group>"; };
 		26EFF0A773A9B68F8036680922E55A8F /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		2D182500FF4918391F97385DAE996449 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		2EF3D161B4D3BA0DFB23119504A4863B /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		32059BC369D7FCF1B2F950DF30BE51C3 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		332F6B9EA5D63A221428D82DFC754F83 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
-		3B125292500696D52A4B84AD81FE3ADB /* IGSensor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IGSensor.swift; path = IgniteAPI/Classes/IGSensor.swift; sourceTree = "<group>"; };
+		345F4647CB7694D2E4C9AE06C8EFB823 /* IgniteAPI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = IgniteAPI.modulemap; sourceTree = "<group>"; };
 		3FB69F4F53F2C6FD84869CCF367C3079 /* Pods-IgniteAPI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IgniteAPI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4112B39ECC0463E213266A56E3C03040 /* IgniteAPI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IgniteAPI-umbrella.h"; sourceTree = "<group>"; };
+		42A1E61C688C6322F0D592523227375B /* IGStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IGStatus.swift; sourceTree = "<group>"; };
 		46F4762460D503187589023899F31680 /* Pods-IgniteAPI_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IgniteAPI_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		4B4903DE9033BF3D0D1F9FE36A66061F /* Pods-IgniteAPI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IgniteAPI_Example.release.xcconfig"; sourceTree = "<group>"; };
-		564007B1A89E401447C7623416E4C8F3 /* IGLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IGLink.swift; path = IgniteAPI/Classes/IGLink.swift; sourceTree = "<group>"; };
 		5933A0580629CB79BDBD1D33483297F5 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		610EC87CD3E339A8E5E2364827227A53 /* IGNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IGNode.swift; path = IgniteAPI/Classes/IGNode.swift; sourceTree = "<group>"; };
+		59E6641A66FCC45782447577EACA5804 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5E2958158DDC3B6E12BD59F9D1454EFA /* IGDROMConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IGDROMConfiguration.swift; sourceTree = "<group>"; };
 		635B9B6243038DE3398876CB81EC4E94 /* Pods-IgniteAPI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IgniteAPI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		683E8A5214A59D714A6D9B710EAB70FE /* IGDROMConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IGDROMConfiguration.swift; path = IgniteAPI/Classes/IGDROMConfiguration.swift; sourceTree = "<group>"; };
 		6BEDE9AC96BB56A04DE61D281623BA8C /* Pods-IgniteAPI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IgniteAPI_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7081C0A1BA71CA39462AD83F8DAD9149 /* IgniteAPI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = IgniteAPI.modulemap; sourceTree = "<group>"; };
+		6D2E36A22C8ED220B4AC32457AD97447 /* IGSensorData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IGSensorData.swift; sourceTree = "<group>"; };
 		7276AA2C3E472B721EF0ECF2ABBCDA0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		741D12F228F4EF428DC208FA14D2C481 /* Pods_IgniteAPI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IgniteAPI_Tests.framework; path = "Pods-IgniteAPI_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		77438A7CD8142EA7838CA0134AD03D1E /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = IgniteAPI/Classes/Extensions.swift; sourceTree = "<group>"; };
 		7857033CB003F852F367D6BC6CA97425 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		7A7E7C1328178AC3021972C60DAD2392 /* Pods-IgniteAPI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-IgniteAPI_Example.modulemap"; sourceTree = "<group>"; };
 		7BD1D581B483AF8736F68B34656AEA1F /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
 		7C0513413621B7E99FA8858EB56684EE /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C2BEB9333D64F8288DF9960AAEE49FF /* IgniteAPI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IgniteAPI-umbrella.h"; sourceTree = "<group>"; };
 		7E35A9FA93C58C0375CC29104B2979A3 /* IgniteAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IgniteAPI.framework; path = IgniteAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EFE538EAC6ABEB3290387ACBEA821DC /* IGDROM.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IGDROM.swift; sourceTree = "<group>"; };
+		7F4297AD27F9104012D3AAD23D60C107 /* IgniteAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IgniteAPI.xcconfig; sourceTree = "<group>"; };
 		819488C9660C7F31AED6FD982606A3AE /* Pods-IgniteAPI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IgniteAPI_Example-frameworks.sh"; sourceTree = "<group>"; };
-		831032F28C76BD46C1F8344E912815AC /* IgniteAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IgniteAPI.swift; path = IgniteAPI/Classes/IgniteAPI.swift; sourceTree = "<group>"; };
 		8AD3341E3C47F510C4F1AAB284374E2E /* Pods-IgniteAPI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IgniteAPI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8C208BD2418B38199D932444228512CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		8F03809326666A0674F21BBADB1BB09D /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
@@ -141,40 +142,39 @@
 		927159AC28B562B9F78B38834A07F0DA /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94276CF887593FC21A638F4E2F1F4A42 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		957B4A9B28E553741C2E64745E7E686C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FD7F0C561E51EB515082B2F14FC0D72 /* Pods-IgniteAPI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IgniteAPI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		A63D5DCB808715F3007DA51E0E235675 /* IGAuditor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IGAuditor.swift; path = IgniteAPI/Classes/IGAuditor.swift; sourceTree = "<group>"; };
+		A42016E2E299AA0A5FAAF1AACEF16F2B /* IGSensor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IGSensor.swift; sourceTree = "<group>"; };
+		ABA30820C1CA0BE94A0E8E2217B0077B /* IgniteAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IgniteAPI.swift; path = IgniteAPI/Classes/IgniteAPI.swift; sourceTree = "<group>"; };
+		AD7ECE7CB1616D3CE89E6483F6D0D133 /* IGDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IGDevice.swift; sourceTree = "<group>"; };
 		AEBEB670658597FB7864005ED913ECB6 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		AF748B9E1848C5D6DD73C0C1A7A36AE2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5BC2BB7330C900DBC676E504C6ABF83 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6045B96FCFBEDF5EB8382E76AA8596B /* IGEnduser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IGEnduser.swift; path = IgniteAPI/Classes/IGEnduser.swift; sourceTree = "<group>"; };
 		BA5B8F6AE942BA3D7E8C0B8732349B67 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
 		C00940514D8896C3A0366E3D36814DFC /* Pods-IgniteAPI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IgniteAPI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C57542A837C5B77A7BB3FB13B37548A6 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCD6D8B2F8A75D3C00F627BBD102D97A /* Pods-IgniteAPI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-IgniteAPI_Tests.modulemap"; sourceTree = "<group>"; };
+		CDF968E52FD6D110BBABA50B60791FC3 /* IGEnduser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IGEnduser.swift; sourceTree = "<group>"; };
 		CF6FA20699EAC0AB72A507BB66B191F8 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		CFBFF681209D4E5030FF4116EFD41362 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
 		D5AA62E4DF8DA9EC59BCC0C4C30EB81D /* Pods-IgniteAPI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IgniteAPI_Tests-dummy.m"; sourceTree = "<group>"; };
 		D88143B19862843FE0B7646A90F0208B /* Pods-IgniteAPI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IgniteAPI_Example-umbrella.h"; sourceTree = "<group>"; };
 		D9EE6D52AA2F0C3238B527C58255F520 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		DAA5CA9C1A1A8A10FA0F34E068E281AB /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		DAB31171BD475B4D9AD20D750FB327B0 /* IGSensorData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IGSensorData.swift; path = IgniteAPI/Classes/IGSensorData.swift; sourceTree = "<group>"; };
 		DE99AF16AC7077B672DAE5DAD765B367 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
-		DF1FAD3A4F6F012195082866D1B0094E /* IgniteAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IgniteAPI.xcconfig; sourceTree = "<group>"; };
 		E42F49FBA20BC96954B56110A1FB0535 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		E7B00E4A51D31EB54106B6CC8F6B5A13 /* IGNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IGNode.swift; sourceTree = "<group>"; };
 		E8202EA65D7F9777D78833FBE8F42BF1 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
 		E97FC26798AAB47AE87FA5713EEC2A55 /* Pods-IgniteAPI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IgniteAPI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		ED0BEE15B986088B70D74535940455B2 /* IGDROM.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IGDROM.swift; path = IgniteAPI/Classes/IGDROM.swift; sourceTree = "<group>"; };
 		EEF1DD17D00D8B108483FE2FEE2ED4DA /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		F05B506A540FE042146EA8265DD35585 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 		F26FB4343C43368E1D119B6871123AF1 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		F2AC5CCE911F2621D5D549064C840F84 /* Pods-IgniteAPI_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IgniteAPI_Example-resources.sh"; sourceTree = "<group>"; };
 		F382C5721F36A8CF08DA36032E8FF2C1 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		F62B1E7E49D43248FEF3011AEAB7E7D4 /* IgniteAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IgniteAPI-prefix.pch"; sourceTree = "<group>"; };
 		F7C329F270B1A6170E31C4CA60B84C4D /* Pods-IgniteAPI_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IgniteAPI_Tests-resources.sh"; sourceTree = "<group>"; };
-		F87CE1BB56A38B153AB83B9792AE5F87 /* IGStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IGStatus.swift; path = IgniteAPI/Classes/IGStatus.swift; sourceTree = "<group>"; };
-		FAFF58A8E9A0CBA35AD6B1BD933E5EC3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FBD1000835A64250160D4AF0F02B414E /* IGDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IGDevice.swift; path = IgniteAPI/Classes/IGDevice.swift; sourceTree = "<group>"; };
 		FC61F6341066AC51394924B7EA2CF193 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE144DA11367997D6E81FAC52197EF35 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = IgniteAPI/Classes/Constants.swift; sourceTree = "<group>"; };
+		FDE39CFC225D9280B33ED66B844A01F4 /* IgniteAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IgniteAPI-dummy.m"; sourceTree = "<group>"; };
 		FEEEE04C5F8A35662C01C1B8B5A38BA3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -224,6 +224,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B37D66666CC029F8E465CFFB8018371 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				345F4647CB7694D2E4C9AE06C8EFB823 /* IgniteAPI.modulemap */,
+				7F4297AD27F9104012D3AAD23D60C107 /* IgniteAPI.xcconfig */,
+				FDE39CFC225D9280B33ED66B844A01F4 /* IgniteAPI-dummy.m */,
+				F62B1E7E49D43248FEF3011AEAB7E7D4 /* IgniteAPI-prefix.pch */,
+				4112B39ECC0463E213266A56E3C03040 /* IgniteAPI-umbrella.h */,
+				957B4A9B28E553741C2E64745E7E686C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/IgniteAPI";
+			sourceTree = "<group>";
+		};
+		233824D2FAA334FA10209CAE0DB1424E /* IgniteAPI */ = {
+			isa = PBXGroup;
+			children = (
+				ABA30820C1CA0BE94A0E8E2217B0077B /* IgniteAPI.swift */,
+				E0A38182E26B6ECA1B005F9DCB519147 /* Model */,
+				1B37D66666CC029F8E465CFFB8018371 /* Support Files */,
+				4D8EBAB6EDD4B75D318D3B6A4FE530BA /* Utilities */,
+			);
+			name = IgniteAPI;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		2C3F8E54BF44D7DB5D25BE20FA1E12B5 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -232,10 +258,20 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		4002AC501CE0420D8BB4C7CFE34E05F2 /* Development Pods */ = {
+		4D8EBAB6EDD4B75D318D3B6A4FE530BA /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				75A9ADEEE453F048470380463AB41FA8 /* IgniteAPI */,
+				59E6641A66FCC45782447577EACA5804 /* Constants.swift */,
+				0BC991CFB58DE9609ED0D379D0C1A77C /* Extensions.swift */,
+			);
+			name = Utilities;
+			path = IgniteAPI/Classes/Utilities;
+			sourceTree = "<group>";
+		};
+		51E0307354BD4A52A2AE5D1D311E0889 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				233824D2FAA334FA10209CAE0DB1424E /* IgniteAPI */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -258,20 +294,6 @@
 			path = "Target Support Files/Pods-IgniteAPI_Tests";
 			sourceTree = "<group>";
 		};
-		65CA9CABC528354F54D1B784BD401DA4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7081C0A1BA71CA39462AD83F8DAD9149 /* IgniteAPI.modulemap */,
-				DF1FAD3A4F6F012195082866D1B0094E /* IgniteAPI.xcconfig */,
-				15BF47540C2FC9D930B6BEA49EBF2AF4 /* IgniteAPI-dummy.m */,
-				0388019C4FBB3982ED4BF94AE68547D8 /* IgniteAPI-prefix.pch */,
-				7C2BEB9333D64F8288DF9960AAEE49FF /* IgniteAPI-umbrella.h */,
-				FAFF58A8E9A0CBA35AD6B1BD933E5EC3 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/IgniteAPI";
-			sourceTree = "<group>";
-		};
 		75817F13FD582AA366F3A28BAEAFD135 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -286,34 +308,11 @@
 			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
-		75A9ADEEE453F048470380463AB41FA8 /* IgniteAPI */ = {
-			isa = PBXGroup;
-			children = (
-				FE144DA11367997D6E81FAC52197EF35 /* Constants.swift */,
-				77438A7CD8142EA7838CA0134AD03D1E /* Extensions.swift */,
-				A63D5DCB808715F3007DA51E0E235675 /* IGAuditor.swift */,
-				FBD1000835A64250160D4AF0F02B414E /* IGDevice.swift */,
-				ED0BEE15B986088B70D74535940455B2 /* IGDROM.swift */,
-				683E8A5214A59D714A6D9B710EAB70FE /* IGDROMConfiguration.swift */,
-				B6045B96FCFBEDF5EB8382E76AA8596B /* IGEnduser.swift */,
-				564007B1A89E401447C7623416E4C8F3 /* IGLink.swift */,
-				831032F28C76BD46C1F8344E912815AC /* IgniteAPI.swift */,
-				610EC87CD3E339A8E5E2364827227A53 /* IGNode.swift */,
-				3B125292500696D52A4B84AD81FE3ADB /* IGSensor.swift */,
-				DAB31171BD475B4D9AD20D750FB327B0 /* IGSensorData.swift */,
-				F87CE1BB56A38B153AB83B9792AE5F87 /* IGStatus.swift */,
-				075AD779DB46090BC39832D5995D3741 /* IGUser.swift */,
-				65CA9CABC528354F54D1B784BD401DA4 /* Support Files */,
-			);
-			name = IgniteAPI;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				4002AC501CE0420D8BB4C7CFE34E05F2 /* Development Pods */,
+				51E0307354BD4A52A2AE5D1D311E0889 /* Development Pods */,
 				9ACB7A3E4C9AA8D8F0D87E89EA22F83C /* Frameworks */,
 				86D8AA6B1E9A5BBF1AE91BD6451D7A84 /* Pods */,
 				B4BAEC06A7B6FB28F49CCD68D3F0733E /* Products */,
@@ -369,6 +368,25 @@
 			);
 			name = SwiftyJSON;
 			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		E0A38182E26B6ECA1B005F9DCB519147 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				25D4FD16A45B3BA06683C34351E8EC47 /* IGAuditor.swift */,
+				AD7ECE7CB1616D3CE89E6483F6D0D133 /* IGDevice.swift */,
+				7EFE538EAC6ABEB3290387ACBEA821DC /* IGDROM.swift */,
+				5E2958158DDC3B6E12BD59F9D1454EFA /* IGDROMConfiguration.swift */,
+				CDF968E52FD6D110BBABA50B60791FC3 /* IGEnduser.swift */,
+				098D58ED9E94436E2D8632054B32A8FF /* IGLink.swift */,
+				E7B00E4A51D31EB54106B6CC8F6B5A13 /* IGNode.swift */,
+				A42016E2E299AA0A5FAAF1AACEF16F2B /* IGSensor.swift */,
+				6D2E36A22C8ED220B4AC32457AD97447 /* IGSensorData.swift */,
+				42A1E61C688C6322F0D592523227375B /* IGStatus.swift */,
+				0F7A8A6B87EBF75D1DD1ED1C5152F9E7 /* IGUser.swift */,
+			);
+			name = Model;
+			path = IgniteAPI/Classes/Model;
 			sourceTree = "<group>";
 		};
 		EB9D3294C408A3132839B3B5B37A96BC /* Alamofire */ = {
@@ -550,7 +568,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA82A6F22A05BA991E110641DDBED05F /* Build configuration list for PBXNativeTarget "IgniteAPI" */;
 			buildPhases = (
-				0B437AA1534422FA44943A496F44C69C /* Sources */,
+				6D6F317D83F4565D8269705AB1E77F75 /* Sources */,
 				4054AD67AF8A04839A6D9D3E233864E3 /* Frameworks */,
 				16B02A02E99D47081B63476F511D8E5A /* Headers */,
 			);
@@ -612,28 +630,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0B437AA1534422FA44943A496F44C69C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D248A73F08F8F16531529DA4BAD6EC5 /* Constants.swift in Sources */,
-				F3C30214677CC26B503621D63CA861B3 /* Extensions.swift in Sources */,
-				795388A2E462668A195DD9F4F2FF89F0 /* IGAuditor.swift in Sources */,
-				D644DBC47172FC3D3814C40CBC0E5D4A /* IGDevice.swift in Sources */,
-				BC1C719B885BF2E029D2C5BA91DA90F8 /* IGDROM.swift in Sources */,
-				5E632D19417F7C4E0070E5361C096361 /* IGDROMConfiguration.swift in Sources */,
-				E54F1C00FAE906DE02A35FE6E504DFAF /* IGEnduser.swift in Sources */,
-				828BCBFF4062A94E55C84CC0C95FD687 /* IGLink.swift in Sources */,
-				06CFC38773A0AE4E780B42E173A2DF43 /* IgniteAPI-dummy.m in Sources */,
-				5FA54537B1E7A402B13B0C8CA6605D20 /* IgniteAPI.swift in Sources */,
-				DAF68E380F24D698B46A0621FA1127DD /* IGNode.swift in Sources */,
-				58E289A5014D95BC698640F666D85BC5 /* IGSensor.swift in Sources */,
-				EF5C9F7D215E8865822D74BDC0A7B172 /* IGSensorData.swift in Sources */,
-				8A7696325DE3AA1B73224DFC4BB394ED /* IGStatus.swift in Sources */,
-				1F549CFD7389578C6E8E6CD253AC86A3 /* IGUser.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		32B9974868188C4803318E36329C87FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -656,6 +652,28 @@
 				3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */,
 				10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */,
 				BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D6F317D83F4565D8269705AB1E77F75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E61B2A1AD2CE2DF4B874EC04B610221 /* Constants.swift in Sources */,
+				51CF7547C5197098EB8AC41684F408BB /* Extensions.swift in Sources */,
+				8F8A595B358BD50D0D2DE3F63E56CD44 /* IGAuditor.swift in Sources */,
+				078ED294AFA552ED54F3808B7534416B /* IGDevice.swift in Sources */,
+				57D570A161FFE5002801E16D7101D82C /* IGDROM.swift in Sources */,
+				0095E86ED77C9756717EEA13B2F2103A /* IGDROMConfiguration.swift in Sources */,
+				A92627A0445FB8C8D59B8F3A8F88B196 /* IGEnduser.swift in Sources */,
+				161E75D0DE6561E73673EB3C714A0FD2 /* IGLink.swift in Sources */,
+				FD4FCCC04F6928885E67C65BCA237871 /* IgniteAPI-dummy.m in Sources */,
+				8328A18DD0F0480E360B562ED7CF0971 /* IgniteAPI.swift in Sources */,
+				E712F90A4A9A0A768905EC1B7965D291 /* IGNode.swift in Sources */,
+				513F06A0A416BF0D5D495A1F87544DB8 /* IGSensor.swift in Sources */,
+				759B369EBC5BDE3AADF643A282FD73BE /* IGSensorData.swift in Sources */,
+				B6E96103AAC6737C7675F25376DCD669 /* IGStatus.swift in Sources */,
+				376788F941B1F9AE4F7595DA9208C2FC /* IGUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -885,7 +903,7 @@
 		};
 		81AC61DCF15807DCB7C5692E519D3917 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF1FAD3A4F6F012195082866D1B0094E /* IgniteAPI.xcconfig */;
+			baseConfigurationReference = 7F4297AD27F9104012D3AAD23D60C107 /* IgniteAPI.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -920,7 +938,7 @@
 		};
 		8F564E9C645FC7CF52D912F486F256B9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF1FAD3A4F6F012195082866D1B0094E /* IgniteAPI.xcconfig */;
+			baseConfigurationReference = 7F4297AD27F9104012D3AAD23D60C107 /* IgniteAPI.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
