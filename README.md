@@ -10,6 +10,7 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+This pod uses 'Alamofire' and 'SwiftyJSON' internally but you don't need to include these pods in your Podfile.
 
 ## Installation
 
@@ -22,8 +23,8 @@ pod 'IgniteAPI'
 
 ## Author
 
-dorukgezici, dorukgezici@gmail.com
+[Doruk Gezici](http://dorukgezici.com) &nbsp; [![GitHub followers](https://img.shields.io/github/followers/dorukgezici.svg?style=social&label=Follow)](https://github.com/dorukgezici)[![Twitter Follow](https://img.shields.io/twitter/follow/derektraveller.svg?style=social&label=Follow)](https://twitter.com/derektraveller)
 
 ## License
 
-IgniteAPI is available under the MIT license. See the LICENSE file for more info.
+IgniteAPI is available under the Apache 2.0 license. See the LICENSE file for more info.
