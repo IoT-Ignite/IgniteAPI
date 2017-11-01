@@ -24,7 +24,7 @@ A Swift wrapper library for IoT-Ignite REST API. Written with Swift 4.0 for iOS 
   s.homepage         = 'https://github.com/dorukgezici/IgniteAPI'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'Apache-2.0', :file => 'LICENSE' }
-  s.author           = { 'dorukgezici' => 'dorukgezici@gmail.com' }
+  s.author           = { 'Doruk Gezici' => 'doruk@gezici.me' }
   s.source           = { :git => 'https://github.com/dorukgezici/IgniteAPI.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/derektraveller'
 
