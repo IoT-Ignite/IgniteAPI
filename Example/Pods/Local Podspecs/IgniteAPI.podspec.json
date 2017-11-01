@@ -1,0 +1,30 @@
+{
+  "name": "IgniteAPI",
+  "version": "0.5.0",
+  "summary": "A Swift wrapper library for IoT-Ignite REST API.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dorukgezici/IgniteAPI",
+  "license": {
+    "type": "Apache-2.0",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dorukgezici": "dorukgezici@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/dorukgezici/IgniteAPI.git",
+    "tag": "0.5.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "IgniteAPI/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+
+    ],
+    "SwiftyJSON": [
+
+    ]
+  }
+}

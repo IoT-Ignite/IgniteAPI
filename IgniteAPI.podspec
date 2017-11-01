@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IgniteAPI'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of IgniteAPI.'
+  s.version          = '0.5.0'
+  s.summary          = 'A Swift wrapper library for IoT-Ignite REST API.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A Swift wrapper library for IoT-Ignite REST API. Written with Swift 4.0 for iOS Development using IoT-Ignite's cloud.
                        DESC
 
   s.homepage         = 'https://github.com/dorukgezici/IgniteAPI'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'Apache-2.0', :file => 'LICENSE' }
   s.author           = { 'dorukgezici' => 'dorukgezici@gmail.com' }
   s.source           = { :git => 'https://github.com/dorukgezici/IgniteAPI.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  # s.social_media_url = 'https://twitter.com/derektraveller'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'IgniteAPI/Classes/**/*'
   
@@ -38,5 +38,6 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Alamofire'
+  s.dependency 'SwiftyJSON'
 end

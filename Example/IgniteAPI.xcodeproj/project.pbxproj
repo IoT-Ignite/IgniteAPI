@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		17334419123019613B2B5B24 /* Pods-IgniteAPI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IgniteAPI_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IgniteAPI_Tests/Pods-IgniteAPI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		42C31217D17DEECD0C73D1AE /* Pods-IgniteAPI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IgniteAPI_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-IgniteAPI_Example/Pods-IgniteAPI_Example.release.xcconfig"; sourceTree = "<group>"; };
-		488C806F0431E817091D9437 /* IgniteAPI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = IgniteAPI.podspec; path = ../IgniteAPI.podspec; sourceTree = "<group>"; };
+		488C806F0431E817091D9437 /* IgniteAPI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = IgniteAPI.podspec; path = ../IgniteAPI.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* IgniteAPI_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IgniteAPI_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,9 +42,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		AC3AF0ACD3DC22C15C4B8F80 /* Pods_IgniteAPI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IgniteAPI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE06248369FDBC9FBA8129C8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AE06248369FDBC9FBA8129C8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B49DA151D03076A1F98C1720 /* Pods_IgniteAPI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IgniteAPI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C61680ED630AC81B49BB867E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C61680ED630AC81B49BB867E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CD094E876B53418BA9D28B8E /* Pods-IgniteAPI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IgniteAPI_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IgniteAPI_Example/Pods-IgniteAPI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E2E0FE0FD2CEF6673AA44D90 /* Pods-IgniteAPI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IgniteAPI_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IgniteAPI_Tests/Pods-IgniteAPI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -215,6 +215,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = F8A449TUXU;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -301,11 +302,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-IgniteAPI_Example/Pods-IgniteAPI_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/IgniteAPI/IgniteAPI.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IgniteAPI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -517,6 +522,7 @@
 			baseConfigurationReference = CD094E876B53418BA9D28B8E /* Pods-IgniteAPI_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F8A449TUXU;
 				INFOPLIST_FILE = IgniteAPI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -532,6 +538,7 @@
 			baseConfigurationReference = 42C31217D17DEECD0C73D1AE /* Pods-IgniteAPI_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F8A449TUXU;
 				INFOPLIST_FILE = IgniteAPI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
