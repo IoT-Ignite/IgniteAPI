@@ -21,12 +21,12 @@ Pod::Spec.new do |s|
 A Swift wrapper library for IoT-Ignite REST API. Written with Swift 4.0 for iOS Development using IoT-Ignite's cloud.
                        DESC
 
-  s.homepage         = 'https://github.com/dorukgezici/IgniteAPI'
+  s.homepage         = 'https://github.com/IoT-Ignite/IgniteAPI'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'Apache-2.0', :file => 'LICENSE' }
   s.author           = { 'Doruk Gezici' => 'doruk@gezici.me' }
-  s.source           = { :git => 'https://github.com/dorukgezici/IgniteAPI.git', :tag => 'v' + s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/derektraveller'
+  s.source           = { :git => 'https://github.com/IoT-Ignite/IgniteAPI.git', :tag => 'v' + s.version.to_s }
+  s.social_media_url = 'https://twitter.com/derektraveller'
 
   s.ios.deployment_target = '10.0'
 
