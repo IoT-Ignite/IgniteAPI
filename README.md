@@ -1,6 +1,6 @@
 # IgniteAPI
 
-[![CI Status](http://img.shields.io/travis/dorukgezici/IgniteAPI.svg?style=flat)](https://travis-ci.org/dorukgezici/IgniteAPI)
+[![CI Status](http://img.shields.io/travis/IoT-Ignite/IgniteAPI.svg?style=flat)](https://travis-ci.org/IoT-Ignite/IgniteAPI)
 [![Version](https://img.shields.io/cocoapods/v/IgniteAPI.svg?style=flat)](http://cocoapods.org/pods/IgniteAPI)
 [![License](https://img.shields.io/cocoapods/l/IgniteAPI.svg?style=flat)](http://cocoapods.org/pods/IgniteAPI)
 [![Platform](https://img.shields.io/cocoapods/p/IgniteAPI.svg?style=flat)](http://cocoapods.org/pods/IgniteAPI)
