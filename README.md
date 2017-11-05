@@ -18,7 +18,7 @@ IgniteAPI is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'IgniteAPI', '0.9.0-alpha'
+pod 'IgniteAPI'
 ```
 
 ## Author
