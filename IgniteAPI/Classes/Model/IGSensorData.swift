@@ -22,7 +22,7 @@ public class IGSensorData {
         cloudDate = json["cloudDate"].doubleValue / 1000 // Change milliseconds to seconds.
         createDate = json["createDate"].doubleValue / 1000
         if let str = json["data"].string {
-            let array = str.characters.filter { $0 != "\"" && $0 != "[" && $0 != "]" }
+            let array = str.filter { $0 != "\"" && $0 != "[" && $0 != "]" }
             self.data = String(array)
         } else {
             if let tmp = json["data"].float {

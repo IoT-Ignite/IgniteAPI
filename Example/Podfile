@@ -1,12 +1,9 @@
 use_frameworks!
-platform :ios, '10.0'
 
 target 'IgniteAPI_Example' do
   pod 'IgniteAPI', :path => '../'
 
   target 'IgniteAPI_Tests' do
     inherit! :search_paths
-
-    
   end
 end
