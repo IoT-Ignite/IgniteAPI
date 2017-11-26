@@ -115,7 +115,6 @@ public class IgniteAPI {
             switch response.result {
             case .success(let value):
                 let json = JSON(value)
-                print(json)
                 if let error = json["error"].string {
                     completion(nil, error)
                 } else {
@@ -275,7 +274,6 @@ public class IgniteAPI {
             switch response.result {
             case .success(let value):
                 let json = JSON(value)
-                print(json)
                 let auditor = IGAuditor(json: json)
                 completion(auditor)
             case .failure(let error):
@@ -482,7 +480,7 @@ public class IgniteAPI {
                 if let id = json["configurationId"].string {
                     completion(id, nil)
                 } else {
-                    print(json)
+                    print("Configuration Id Not Found! : \(json)")
                 }
                 switch json["code"].stringValue {
                 case "201":
@@ -558,7 +556,6 @@ public class IgniteAPI {
             switch response.result {
             case .success(let value):
                 let json = JSON(value)
-                print(json)
                 completion(json)
             case .failure(let error):
                 print(error)

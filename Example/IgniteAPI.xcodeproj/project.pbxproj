@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		4BB032E95D61990BFF384D85 /* Pods_IgniteAPI_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B49DA151D03076A1F98C1720 /* Pods_IgniteAPI_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
+		607FACD81AFB9204008FA782 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* LoginVC.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		81B8AF621FCB5EE7003C73B0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B8AF611FCB5EE7003C73B0 /* Extensions.swift */; };
+		81B8AF651FCB60B6003C73B0 /* DeviceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B8AF631FCB60B6003C73B0 /* DeviceCell.swift */; };
+		81B8AF661FCB60B6003C73B0 /* DeviceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81B8AF641FCB60B6003C73B0 /* DeviceCell.xib */; };
+		81B8AF681FCB60E9003C73B0 /* DevicesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B8AF671FCB60E8003C73B0 /* DevicesVC.swift */; };
+		81B8AF6A1FCB61B0003C73B0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B8AF691FCB61B0003C73B0 /* Constants.swift */; };
 		8B84C7C36AC69403374FAB89 /* Pods_IgniteAPI_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3AF0ACD3DC22C15C4B8F80 /* Pods_IgniteAPI_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,13 +39,18 @@
 		607FACD01AFB9204008FA782 /* IgniteAPI_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IgniteAPI_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		607FACD71AFB9204008FA782 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* IgniteAPI_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IgniteAPI_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		81B8AF611FCB5EE7003C73B0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		81B8AF631FCB60B6003C73B0 /* DeviceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceCell.swift; sourceTree = "<group>"; };
+		81B8AF641FCB60B6003C73B0 /* DeviceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceCell.xib; sourceTree = "<group>"; };
+		81B8AF671FCB60E8003C73B0 /* DevicesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevicesVC.swift; sourceTree = "<group>"; };
+		81B8AF691FCB61B0003C73B0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		AC3AF0ACD3DC22C15C4B8F80 /* Pods_IgniteAPI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IgniteAPI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE06248369FDBC9FBA8129C8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B49DA151D03076A1F98C1720 /* Pods_IgniteAPI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IgniteAPI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,7 +113,12 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				607FACD71AFB9204008FA782 /* LoginVC.swift */,
+				81B8AF671FCB60E8003C73B0 /* DevicesVC.swift */,
+				81B8AF631FCB60B6003C73B0 /* DeviceCell.swift */,
+				81B8AF611FCB5EE7003C73B0 /* Extensions.swift */,
+				81B8AF691FCB61B0003C73B0 /* Constants.swift */,
+				81B8AF641FCB60B6003C73B0 /* DeviceCell.xib */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -222,6 +237,7 @@
 						CreatedOnToolsVersion = 6.3.1;
 						DevelopmentTeam = F8A449TUXU;
 						LastSwiftMigration = 0900;
+						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
@@ -252,6 +268,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				81B8AF661FCB60B6003C73B0 /* DeviceCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,8 +392,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				607FACD81AFB9204008FA782 /* LoginVC.swift in Sources */,
+				81B8AF621FCB5EE7003C73B0 /* Extensions.swift in Sources */,
+				81B8AF681FCB60E9003C73B0 /* DevicesVC.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				81B8AF651FCB60B6003C73B0 /* DeviceCell.swift in Sources */,
+				81B8AF6A1FCB61B0003C73B0 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,10 +577,7 @@
 			baseConfigurationReference = 17334419123019613B2B5B24 /* Pods-IgniteAPI_Tests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = F8A449TUXU;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -570,6 +588,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IgniteAPI_Example.app/IgniteAPI_Example";
 			};
 			name = Debug;
 		};
@@ -578,16 +597,14 @@
 			baseConfigurationReference = E2E0FE0FD2CEF6673AA44D90 /* Pods-IgniteAPI_Tests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = F8A449TUXU;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IgniteAPI_Example.app/IgniteAPI_Example";
 			};
 			name = Release;
 		};
