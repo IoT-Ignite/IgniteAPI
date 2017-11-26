@@ -66,6 +66,11 @@ class DevicesVC: UIViewController, UICollectionViewDelegate, UICollectionViewDat
             let i = nodes.index { $0.nodeId == "IgniteGreenhouse" }
             if let i = i {
                 IgniteAPI.currrentNode = nodes[i]
+                IgniteAPI.getDeviceSensors(deviceId: IgniteAPI.currentDevice!.deviceId, nodeId: IgniteAPI.currrentNode!.nodeId, pageSize: 10, completion: { (sensors) in
+                    for sensor in sensors {
+                        print(sensor)
+                    }
+                })
                 //self.performSegue(withIdentifier: "toSensors", sender: nil)
             } else {
                 self.showAlert(title: "Error", message: "This device doesn't have an IgniteGreenhouse node. Please contact support.")
