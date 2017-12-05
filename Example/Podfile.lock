@@ -1,6 +1,6 @@
 PODS:
   - Alamofire (4.5.1)
-  - IgniteAPI (0.9.3):
+  - IgniteAPI (0.9.4):
     - Alamofire
     - SwiftyJSON
   - SwiftyJSON (4.0.0)
@@ -14,7 +14,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
-  IgniteAPI: e0cd30e0fa8cd304d2b4fc67f7c561d2a7cc2224
+  IgniteAPI: ea89cef4261c1ed3f50ab2e00b99ef914505f6ea
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
 PODFILE CHECKSUM: 00b4460231ad5c23635a93716edf71e8f84f7440
