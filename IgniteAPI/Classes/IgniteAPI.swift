@@ -79,12 +79,21 @@ public class IgniteAPI {
             }
         }
     }
-    public static var appKey: String {
+    public static var appKey: String? {
         get {
-            guard let str = UserDefaults.standard.string(forKey: "appKey") else { return APP_KEY }
+            guard let str = UserDefaults.standard.string(forKey: "appKey") else { return nil }
             return str
         } set {
             UserDefaults.standard.set(newValue, forKey: "appKey")
+        }
+    }
+    
+    public static var brand: String? {
+        get {
+            guard let str = UserDefaults.standard.string(forKey: "brand") else { return nil }
+            return str
+        } set {
+            UserDefaults.standard.set(newValue, forKey: "brand")
         }
     }
     
@@ -149,7 +158,7 @@ public class IgniteAPI {
         }
     }
     
-    public static func createRestrictedUser(firstName: String, lastName: String, mail: String, password: String, appKey: String = IgniteAPI.appKey, brand: String = BRAND, profileName: String = DEVICE_MODE, completion: @escaping (_ newUser: IGUser?, _ error: String?) -> ()) {
+    public static func createRestrictedUser(firstName: String, lastName: String, mail: String, password: String, appKey: String = IgniteAPI.appKey!, brand: String = IgniteAPI.brand!, profileName: String = DEVICE_MODE, completion: @escaping (_ newUser: IGUser?, _ error: String?) -> ()) {
         let parameters: Parameters = [
             "appKey": appKey,
             "brand": brand,

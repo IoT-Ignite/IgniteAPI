@@ -63,7 +63,7 @@ class DevicesVC: UIViewController, UICollectionViewDelegate, UICollectionViewDat
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         IgniteAPI.currentDevice = devices[indexPath.row]
         IgniteAPI.getDeviceNodes(deviceId: IgniteAPI.currentDevice!.deviceId, pageSize: 1) { (nodes) in
-            let i = nodes.index { $0.nodeId == "IgniteGreenhouse" }
+            let i = nodes.index { $0.nodeId == IgniteAPI.brand! }
             if let i = i {
                 IgniteAPI.currrentNode = nodes[i]
                 IgniteAPI.getDeviceSensors(deviceId: IgniteAPI.currentDevice!.deviceId, nodeId: IgniteAPI.currrentNode!.nodeId, pageSize: 10, completion: { (sensors) in
