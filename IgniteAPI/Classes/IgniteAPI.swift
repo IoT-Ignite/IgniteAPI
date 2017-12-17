@@ -81,7 +81,7 @@ public class IgniteAPI {
     }
     public static var appKey: String {
         get {
-            guard let str = UserDefaults.standard.string(forKey: "appKey") else { return "2bb69ddce24f4021a1c6b77f1ab9302c" }
+            guard let str = UserDefaults.standard.string(forKey: "appKey") else { return APP_KEY }
             return str
         } set {
             UserDefaults.standard.set(newValue, forKey: "appKey")
@@ -183,7 +183,7 @@ public class IgniteAPI {
             "fromAlias": alias,
             "mail": mail,
             "mailSender": mailSender,
-            "url": "https://iot-ignite.com"
+            "url": "https://devzone.iot-ignite.com/dpanel/forgot-password.php"
         ]
         Alamofire.request(endpoints.forgotPassword, method: .post, parameters: parameters, encoding: JSONEncoding.default).responseJSON { (response) in
             switch response.result {

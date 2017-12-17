@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'IgniteAPI'
-  s.version          = '0.9.4'
+  s.version          = '0.9.5'
   s.summary          = 'A Swift wrapper library for IoT-Ignite REST API.'
 
   s.description      = <<-DESC
