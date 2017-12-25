@@ -12,6 +12,7 @@ import SwiftyJSON
 public class IGDevice: NSObject, NSCoding {
     
     public let deviceId: String!
+    public let deviceCode: String!
     public let status: String!
     public let osVersion: String!
     public let model: String!
@@ -22,6 +23,7 @@ public class IGDevice: NSObject, NSCoding {
     
     public init(json: JSON) {
         deviceId = json["deviceId"].stringValue
+        deviceCode = json["location"]["deviceCode"].stringValue
         status = json["status"].stringValue
         osVersion = json["osVersion"].stringValue
         model = json["model"].stringValue
@@ -33,6 +35,7 @@ public class IGDevice: NSObject, NSCoding {
     
     public required init(coder aDecoder: NSCoder) {
         deviceId = aDecoder.decodeString(forKey: "deviceId")
+        deviceCode = aDecoder.decodeString(forKey: "deviceCode")
         status = aDecoder.decodeString(forKey: "status")
         osVersion = aDecoder.decodeString(forKey: "osVersion")
         model = aDecoder.decodeString(forKey: "model")
@@ -44,6 +47,7 @@ public class IGDevice: NSObject, NSCoding {
     
     public func encode(with aCoder: NSCoder) {
         aCoder.encode(deviceId, forKey: "deviceId")
+        aCoder.encode(deviceCode, forKey: "deviceCode")
         aCoder.encode(status, forKey: "status")
         aCoder.encode(osVersion, forKey: "osVersion")
         aCoder.encode(model, forKey: "model")

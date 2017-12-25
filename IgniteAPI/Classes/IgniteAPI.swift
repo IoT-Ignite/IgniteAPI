@@ -450,6 +450,18 @@ public class IgniteAPI {
             }
         }
     }
+
+    public static func getActionSummary(responseId: String, completion: @escaping (_ json: JSON) -> ()) {
+        Alamofire.request(endpoints.actionSummary(responseId: responseId), method: .get, headers: getHeaders()).responseJSON { (response) in
+            switch response.result {
+            case .success(let value):
+                let json = JSON(value)
+                completion(json)
+            case .failure(let error):
+                print(error)
+            }
+        }
+    }
     
     public static func getDROMTenantConfiguration(completion: @escaping (_ configs: [IGDROM]) -> ()) {
         Alamofire.request(endpoints.dromTenantConfiguration, method: .get, headers: getHeaders()).responseJSON { (response) in
@@ -601,6 +613,9 @@ public class IgniteAPI {
         let actionMessage: String!
         func sensorAgentMessage(deviceCode: String) -> String {
             return device + "/\(deviceCode)/control/sensor-agent-message"
+        }
+        func actionSummary(responseId: String) -> String {
+            return base + "/action/summary/\(responseId)"
         }
         let dromTenantConfiguration: String!
         let addDROMTenantConfiguration: String!

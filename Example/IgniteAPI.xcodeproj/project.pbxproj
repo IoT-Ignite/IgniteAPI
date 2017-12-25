@@ -19,7 +19,6 @@
 		81B8AF661FCB60B6003C73B0 /* DeviceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81B8AF641FCB60B6003C73B0 /* DeviceCell.xib */; };
 		81B8AF681FCB60E9003C73B0 /* DevicesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B8AF671FCB60E8003C73B0 /* DevicesVC.swift */; };
 		81B8AF6A1FCB61B0003C73B0 /* SecretConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B8AF691FCB61B0003C73B0 /* SecretConstants.swift */; };
-		81D483D61FE6E4CF00FD05F3 /* SecretConstants.swift.txt in Sources */ = {isa = PBXBuildFile; fileRef = 81D483D51FE6E4CF00FD05F3 /* SecretConstants.swift.txt */; };
 		8B84C7C36AC69403374FAB89 /* Pods_IgniteAPI_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3AF0ACD3DC22C15C4B8F80 /* Pods_IgniteAPI_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -398,7 +397,6 @@
 				607FACD81AFB9204008FA782 /* LoginVC.swift in Sources */,
 				81B8AF621FCB5EE7003C73B0 /* Extensions.swift in Sources */,
 				81B8AF681FCB60E9003C73B0 /* DevicesVC.swift in Sources */,
-				81D483D61FE6E4CF00FD05F3 /* SecretConstants.swift.txt in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				81B8AF651FCB60B6003C73B0 /* DeviceCell.swift in Sources */,
 				81B8AF6A1FCB61B0003C73B0 /* SecretConstants.swift in Sources */,
